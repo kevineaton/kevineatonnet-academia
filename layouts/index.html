@@ -1,0 +1,30 @@
+{{ define "main" }}
+<header class="hero">
+  <div class="hero-inner">
+    {{ with .Site.Data.profile.photo }}
+    <img class="profile-photo" src="{{ . | relURL }}" alt="{{ $.Site.Data.profile.name }}">
+    {{ end }}
+    <div class="hero-content">
+      <h1>{{ .Site.Data.profile.name }}</h1>
+      <p class="tagline">{{ .Site.Data.profile.tagline }}</p>
+      {{ with .Site.Data.profile.bio }}<p class="bio">{{ . }}</p>{{ end }}
+      <nav class="contact-links">
+        {{ range .Site.Data.profile.emails }}<a href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+        {{ range .Site.Data.profile.links }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}
+      </nav>
+    </div>
+  </div>
+</header>
+
+<nav class="section-nav">
+  <a href="#education">Education</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#publications">Publications</a>
+</nav>
+
+<main class="content">
+  {{ partial "section-education.html" . }}
+  {{ partial "section-teaching.html" . }}
+  {{ partial "section-publications.html" . }}
+</main>
+{{ end }}

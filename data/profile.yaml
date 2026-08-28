@@ -1,0 +1,16 @@
+# Top-of-page identity and bio.
+# image at static/images/profile.jpg, then set this to "images/profile.jpg"
+photo: "images/kevin.jpg"
+name: "Kevin Eaton, PhD"
+tagline: "Computer Science, Cybersecurity, Machine Learning"
+bio: >
+  Dr. Kevin Eaton is an established, experienced Professor and Adjunct Professor teaching at multiple universities. His focus domains
+  include Computer Science, Software Engineering, Cybersecurity, Machine Learning, and Artificial Intelligence.
+emails:
+  - "keaton@purdueglobal.edu"
+  - "k.eaton@snhu.edu"
+links:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/kevinheaton"
+  - name: "ResearchGate"
+    url: "https://www.researchgate.net/profile/Kevin-Eaton-4n"

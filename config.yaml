@@ -1,0 +1,27 @@
+baseURL: https://academia.kevineaton.net
+
+languageCode: en-us
+title: "Kevin Eaton, PhD, DMin, DBS - Academia"
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+outputs:
+  home:
+    - HTML
+
+enableEmoji: true
+
+disableKinds:
+  - taxonomy
+  - term
+
+params:
+  description: "Kevin Eaton, PhD - Education, teaching experience, and publications."

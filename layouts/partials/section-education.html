@@ -1,0 +1,16 @@
+<section id="education" class="section">
+  <p class="eyebrow">01 &mdash; Education</p>
+  <h2>Education</h2>
+  <ul class="entry-list">
+    {{ range .Site.Data.education }}
+    <li class="entry">
+      <div class="entry-date">{{ .year }}</div>
+      <div class="entry-body">
+        <div class="entry-title">{{ .degree }}</div>
+        <div class="entry-subtitle">{{ .institution }}{{ with .location }}, {{ . }}{{ end }}</div>
+        {{ with .details }}<p class="entry-details">{{ . }}</p>{{ end }}
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</section>

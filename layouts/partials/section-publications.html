@@ -1,0 +1,16 @@
+<section id="publications" class="section">
+  <p class="eyebrow">03 &mdash; Publications</p>
+  <h2>Publications</h2>
+  <ul class="entry-list">
+    {{ range .Site.Data.publications }}
+    {{ $pub := . }}
+    <li class="entry">
+      <div class="entry-date">{{ .year }}</div>
+      <div class="entry-body">
+        <div class="entry-title">{{ if .url }}<a href="{{ .url }}">{{ $pub.title }}</a>{{ else }}{{ $pub.title }}{{ end }}</div>
+        <div class="entry-subtitle">{{ .authors }}{{ with .venue }} &mdash; {{ . }}{{ end }}</div>
+      </div>
+    </li>
+    {{ end }}
+  </ul>
+</section>
