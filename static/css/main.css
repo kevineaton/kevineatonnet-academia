@@ -175,6 +175,16 @@ body {
   text-indent: -1.5em;
 }
 
+.entry-doi {
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.entry-doi a {
+  color: var(--color-accent);
+}
+
 .entry-details {
   margin: 0.35rem 0 0;
   font-size: 0.95rem;

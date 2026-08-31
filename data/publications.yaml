@@ -1,25 +1,29 @@
 # Reverse-chronological list of publications.
+# doi is optional - leave blank to omit. Just the identifier (e.g. "10.1000/xyz123"), not the full URL.
 - title: "Crisis Management and Peer Support"
   authors: "Eaton, K. H."
   venue: "Liberty Baptist Theological Seminary (Doctoral Dissertation)"
   year: "2024"
   url: "https://www.researchgate.net/profile/Kevin-Eaton-4"
+  doi: "10.13140/RG.2.2.19511.74404"
 
 - title: "Motivational Factors and Educational Attainment of Software Engineers"
   authors: "Eaton, K. H."
   venue: "Northcentral University (Doctoral Dissertation)"
   year: "2016"
   url: "https://www.researchgate.net/profile/Kevin-Eaton-4"
+  doi: "10.13140/RG.2.2.26222.63049"
 
 - title: "Chaplain Access and Posttraumatic Stress Disorder Symptom Development"
   authors: "Eaton, K. H."
   venue: "Purdue University Global / Kaplan University (Master's Thesis)"
   year: "2015"
   url: "https://www.researchgate.net/profile/Kevin-Eaton-4"
+  doi: "10.13140/RG.2.2.22867.18723"
 
 - title: "Task Force Guardian: Taking Care of Soldiers"
   authors: "Eaton, K. H."
   venue: "SELF PUBLISHED"
   year: "2023"
   url: "files/tfg.pdf"
-
+  doi: "10.5281/ZENODO.22151331"

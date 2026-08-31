@@ -9,6 +9,7 @@
       <div class="entry-body">
         <div class="entry-title">{{ if .url }}<a href="{{ .url }}">{{ $pub.title }}</a>{{ else }}{{ $pub.title }}{{ end }}</div>
         <div class="entry-subtitle">{{ .authors }}{{ with .venue }} &mdash; {{ . }}{{ end }}</div>
+        {{ with .doi }}<div class="entry-doi">DOI: <a href="https://doi.org/{{ . }}">{{ . }}</a></div>{{ end }}
       </div>
     </li>
     {{ end }}
