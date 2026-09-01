@@ -1,0 +1,19 @@
+# Kevin Eaton - Academia
+
+> Kevin Eaton, PhD is a professor teaching Computer Science, Cybersecurity, and Machine Learning at multiple universities.
+
+This site covers his academic background: education, university teaching experience (with course lists by institution), and publications.
+
+## More about Kevin Eaton
+
+- [Hub / all sites](https://kevineaton.net): Links to all of Kevin's professional sites.
+- [Technology](https://tech.kevineaton.net): Software architecture, engineering leadership, and entrepreneurship.
+- [Military](https://military.kevineaton.net): US Army Reserve service as a Chaplain (Lieutenant Colonel).
+- [Martial Arts](https://martialarts.kevineaton.net): Taekwondo, Tangsoodo, Shotokan Karate, and weapons training.
+
+## Profiles
+
+- [LinkedIn](https://www.linkedin.com/in/kevinheaton)
+- [ORCID](https://orcid.org/0000-0003-2903-2930)
+- [ResearchGate](https://www.researchgate.net/profile/Kevin-Eaton-4n)
+- [GitHub](https://github.com/kevineaton)
